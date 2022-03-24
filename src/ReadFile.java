@@ -18,7 +18,8 @@ public class ReadFile {
             string =scanner.nextLine();
             array.add(string);
         }
+        scanner.close();
         return array;
-        // Обернуть в трай кэтч и закрыть поток
+
     }
 }
